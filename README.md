@@ -8,4 +8,4 @@ eToDoList is the tasks management application, which has easy access to add, del
 - Core Data management, including save, fetch delete core data. 
 
 # Demo
-https://github.com/NightcatWu/eToDoLIst/blob/master/eToDoList-Demo.gif
+<img src="https://github.com/NightcatWu/eToDoLIst/blob/master/eToDoList-Demo.gif?raw=true" alt="eToDoList" style="max-width:100%;">
