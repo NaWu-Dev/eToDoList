@@ -36,7 +36,7 @@ class EditVC: UIViewController {
             print ("Save editing failed")
         }
             
-        self.navigationController?.popViewController(animated: true)
+        let _ = self.navigationController?.popViewController(animated: true)
         
     }
     

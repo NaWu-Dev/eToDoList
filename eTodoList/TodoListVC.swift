@@ -22,7 +22,7 @@ class TodoListVC: UITableViewController {
         let alertController = UIAlertController(title: "Add To Do", message: "", preferredStyle: .alert)
         let saveAction = UIAlertAction(title: "Save", style: UIAlertActionStyle.default, handler: ({
             (_) in
-            if let field = alertController.textFields![0] as? UITextField {
+            if let field = (alertController.textFields?[0]) {
                 self.saveItem(itemToSave: field.text!)
                 self.tableView.reloadData()
             }
